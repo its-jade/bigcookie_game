@@ -23,3 +23,16 @@ function puzzle2() {
     alert("try again hehe"); // You can customize this message
   }
 }
+
+function puzzle3() {
+  var enteredPassword = document.getElementById("userInput").value;
+  var correctPassword = "scott pilgrim";
+
+  // Check if the entered password is correct
+  if (enteredPassword === correctPassword) {
+    // Redirect to the next page/puzzle
+    window.location.href = "dVqa4.html"; //
+  } else {
+    alert("try again hehe"); // You can customize this message
+  }
+}
