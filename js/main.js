@@ -5,7 +5,7 @@ function puzzle1() {
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
     // Redirect to the next page/puzzle
-    window.location.href = "bkjkQ.html"; //
+    window.location.href = "bkjkQ.html";
   } else {
     alert("try again hehe");
   }
@@ -18,9 +18,9 @@ function puzzle2() {
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
     // Redirect to the next page/puzzle
-    window.location.href = "dVqa4.html"; //
+    window.location.href = "dVqa4.html";
   } else {
-    alert("try again hehe"); // You can customize this message
+    alert("try again hehe");
   }
 }
 
@@ -31,8 +31,8 @@ function puzzle3() {
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
     // Redirect to the next page/puzzle
-    window.location.href = "dVqa4.html"; //
+    window.location.href = "e9aCm.html";
   } else {
-    alert("try again hehe"); // You can customize this message
+    alert("try again hehe");
   }
 }
