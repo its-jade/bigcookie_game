@@ -1,11 +1,24 @@
 function puzzle1() {
   var enteredPassword = document.getElementById("userInput").value;
-  var correctPassword = "cookie"; // Replace with the actual correct password
+  var correctPassword = "cookie";
 
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
     // Redirect to the next page/puzzle
-    window.location.href = "bkjkQ.html"; // Replace 'next_page.html' with the actual URL of the next page
+    window.location.href = "bkjkQ.html"; //
+  } else {
+    alert("try again hehe");
+  }
+}
+
+function puzzle2() {
+  var enteredPassword = document.getElementById("userInput").value;
+  var correctPassword = "malamute";
+
+  // Check if the entered password is correct
+  if (enteredPassword === correctPassword) {
+    // Redirect to the next page/puzzle
+    window.location.href = "dVqa4.html"; //
   } else {
     alert("try again hehe"); // You can customize this message
   }
