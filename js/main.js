@@ -13,7 +13,7 @@ function puzzle1() {
 
 function puzzle2() {
   var enteredPassword = document.getElementById("userInput").value;
-  var correctPassword = "malamute";
+  var correctPassword = "scott pilgrim";
 
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
@@ -26,7 +26,7 @@ function puzzle2() {
 
 function puzzle3() {
   var enteredPassword = document.getElementById("userInput").value;
-  var correctPassword = "scott pilgrim";
+  var correctPassword = "malamute";
 
   // Check if the entered password is correct
   if (enteredPassword === correctPassword) {
