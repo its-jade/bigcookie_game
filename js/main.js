@@ -36,3 +36,16 @@ function puzzle3() {
     alert("try again hehe");
   }
 }
+
+function puzzle4() {
+  var enteredPassword = document.getElementById("userInput").value;
+  var correctPassword = "howl";
+
+  // Check if the entered password is correct
+  if (enteredPassword === correctPassword) {
+    // Redirect to the next page/puzzle
+    window.location.href = "h01XM.html";
+  } else {
+    alert("try again hehe");
+  }
+}
