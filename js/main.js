@@ -48,7 +48,7 @@ function puzzle5() {
   var correctPassword = "get your wish";
 
   if (enteredPassword.toLowerCase() === correctPassword) {
-    window.location.href = "h01XM.html";
+    window.location.href = "congrats.html";
   } else {
     alert("try again hehe");
   }
