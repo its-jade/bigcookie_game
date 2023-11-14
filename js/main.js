@@ -1,6 +1,7 @@
 function puzzle1() {
   var enteredPassword = document.getElementById("userInput").value;
   var correctPassword = "cookie";
+  var currentPage = document.querySelector(".page");
 
   if (enteredPassword.toLowerCase() === correctPassword) {
     window.location.href = "bkjkQ.html";
