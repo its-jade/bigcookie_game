@@ -33,7 +33,7 @@ function puzzle3() {
 
 function puzzle4() {
   var enteredPassword = document.getElementById("userInput").value;
-  var correctPassword = "howl";
+  var correctPassword = "howls";
 
   if (enteredPassword.toLowerCase() === correctPassword) {
     window.location.href = "h01XM.html";
