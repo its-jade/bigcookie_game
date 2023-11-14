@@ -1,0 +1,1 @@
+A series of puzzles released on November 14, 2023 as a birthday present for a special person. Features five silly puzzles on webpages made with HTML and CSS. Website is controlled by JavaScript file.
